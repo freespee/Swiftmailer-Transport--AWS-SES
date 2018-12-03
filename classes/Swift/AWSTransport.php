@@ -41,7 +41,7 @@
 		* @param boolean $debug Set to true to enable debug messages in error log.
 		* @param string $endpoint The AWS endpoint to use.
 		*/
-		public function __construct($AWSAccessKeyId = null , $AWSSecretKey = null, $debug = false, $endpoint = 'https://email.us-east-1.amazonaws.com/') {
+		public function __construct($AWSAccessKeyId = null , $AWSSecretKey = null, $debug = false, $endpoint = 'https://email.eu-west-1.amazonaws.com/') {
 			call_user_func_array(
 				array($this, 'Swift_Transport_AWSTransport::__construct'),
 				Swift_DependencyContainer::getInstance()
