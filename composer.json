@@ -1,5 +1,5 @@
 {
-    "name": "jmhobbs/swiftmailer-transport-aws-ses",
+    "name": "freespee/swiftmailer-transport-aws-ses",
 		"type": "library",
 		"description": "Add AWS SES support to Swiftmailer",
 		"keywords": [ "email", "swiftmailer", "SES", "AWS" ],
