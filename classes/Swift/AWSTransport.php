@@ -351,6 +351,5 @@
 	}
 
 	class AWSConnectionError extends Exception {}
-	class InvalidOperationException extends Exception {}
 	class InvalidHeaderException extends Exception {}
 	class AWSEmptyResponseException extends Exception {}
